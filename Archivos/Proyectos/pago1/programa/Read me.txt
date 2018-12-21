@@ -1,0 +1,27 @@
+Materia: Algoritmia
+Profesor: Rueda Melendez Marco Antonio
+Alumno: 
+Programa para manejar archivos
+sintaxis:
+ejecutable ArchivoEntrada Aributos ArchivoSalida
+
+Atributos:
+1)S:caracter1caracter2
+Sustituye el caracter1 por el caracter2 en el texto
+ejemplo: S-ax
+2)s:Mm(mayusculas a minusculas) y S-mM(minusculas a mayusculas)
+3)L:nd1nd2...
+Imprimira solamente las lineas indicadas por d1,d2,etc... n es el separador, si hay una linea que no exista no 
+agregara nada al texto
+4)C:nd1nd2...
+Imprimira solamente las columna indicadas por d1,d2,etc... n es el separador, si hay una columna que no exista no 
+agregara nada al texto
+5)IL:nd1nd2...
+Insertara un salto de linea solamente en las lineas indicadas por d1,d2,etc... n es el separador, si hay una linea 
+que no exista no agregara nada al texto
+6)IC:nd1nd2...
+Insertera un tabulador separando unicamente en las lineas lineas indicadas por d1,d2,etc... n es el separador, 
+si hay una linea que no exista no agregara nada al texto. Tambien numerara cada linea del texto
+7)CC:Cadena
+Contara unicamente el numero de ocurrencias de cada cadena encontrada, indicando el numero de ocurrencias de cada
+linea sin importar el tamaño de la letra

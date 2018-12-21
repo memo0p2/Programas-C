@@ -1,0 +1,49 @@
+<------------------------------------------------------------------------------------------------------------------>
+Autor: Ramirez Olvera Guillermo 1CM1
+Profesor: Rueda Melendez Marco Antonio
+<------------------------------------------------------------------------------------------------------------------>
+Programa para manejar archivos
+El programa se ejecutara en el CMD
+I.-Ingresar a la carpeta donde se encuntra el ejecutable
+II.-El texto que se va a leer tiene que estar en la misma carpeta que el ejecutable
+III.-Para ejecutar el archivo se ingresara de esta forma:
+comando ArchivoEntrada Aributos ArchivoSalida
+comando:nombre del ejecutable
+ArchivoEntrada:Archivo de texto el cual tiene la informacion a procesar
+Atributos:Es la especificacion de la accion que se llevara a cabo en el archivo de entrada y cuyo resultado se 
+exibira en el archivo de salida
+ArchivoSalida:Es el archivo de texto el cual contiene la informacion procesada y no modifica el texto de entrada
+<------------------------------------------------------------------------------------------------------------------>
+Los atributos son los siguientes:
+1)S-caracter1caracter2
+Sustituye el caracter1 por el caracter2 en el texto
+ejemplo: S-ax
+2)s-Mm(mayusculas a minusculas) y S-mM(minusculas a mayusculas)
+3)L-nd1nd2...
+Imprimira solamente las lineas indicadas por d1,d2,etc... n es el separador, si hay una linea que no exista no 
+agregara nada al texto
+4)C-nd1nd2...
+Imprimira solamente las columna indicadas por d1,d2,etc... n es el separador, si hay una columna que no exista no 
+agregara nada al texto
+5)IL-nd1nd2...
+Insertara un salto de linea solamente en las lineas indicadas por d1,d2,etc... n es el separador, si hay una linea 
+que no exista no agregara nada al texto
+6)IC-nd1nd2...
+Insertera un tabulador separando unicamente en las lineas lineas indicadas por d1,d2,etc... n es el separador, 
+si hay una linea que no exista no agregara nada al texto. Tambien numerara cada linea del texto
+7)CC-Cadena
+Contara unicamente el numero de ocurrencias de cada cadena encontrada, indicando el numero de ocurrencias de cada
+linea sin importar el tamaño de la letra
+ejemplo: CC-en
+8)CP-Subcadena(prefijo)
+Contara inicamente el numero de ocurrencias de la subcadena dada que sea prefijo de cada cadena del archivo,
+indica las ocurrencias no importa el tamaño de la letra
+ejemplo: CP-a
+9)CS-Subcadena(subfijo)
+Contara inicamente el numero de ocurrencias de la subcadena dada que sea subfijo de cada cadena del archivo,
+indica las ocurrencias no importa el tamaño de la letra
+ejemplo: CS-c
+10)SS-subcadena1:cadena2
+Remplasa la subcadena1 por cadena2 en el texto
+ejemplo: SS-con:hola
+<------------------------------------------------------------------------------------------------------------------>
